@@ -1,0 +1,26 @@
+{
+  "name": "@moataz84/link-crawler",
+  "version": "1.0.0",
+  "description": "Crawl links or generate sitemaps for a URL.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Moataz84/link-crwaler.git"
+  },
+  "keywords": [
+    "Sitemap Generator",
+    "Link Crawling"
+  ],
+  "author": "Moataz Ghazy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Moataz84/link-crwaler/issues"
+  },
+  "homepage": "https://github.com/Moataz84/link-crwaler#readme",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "cheerio": "^1.0.0",
+    "uuid": "^11.1.0"
+  }
+}
