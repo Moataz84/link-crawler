@@ -1,6 +1,6 @@
 {
   "name": "@moataz84/link-crawler",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "Crawl links or generate sitemaps for a URL.",
   "main": "index.js",
   "scripts": {},
