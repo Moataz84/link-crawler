@@ -1,6 +1,6 @@
 {
   "name": "@moataz84/link-crawler",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Crawl links or generate sitemaps for a URL.",
   "main": "index.js",
   "scripts": {},
@@ -13,7 +13,7 @@
     "Link Crawling"
   ],
   "author": "Moataz Ghazy",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Moataz84/link-crawler/issues"
   },
