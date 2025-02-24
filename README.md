@@ -39,8 +39,8 @@ Asynchronous function that crawls a URL and returns a list of internal links. Re
 
 ```js
 validateURLInput("example.com").then(async resp => {
-  const data = await crawlURL("https://example.com")
-  console.log(resp)
+  const links = await crawlURL(resp.URL)
+  console.log(links)
 })
 /*
 {
@@ -55,8 +55,8 @@ Asynchronous function that generates a sitemap file for the given URL, saves it 
 
 ```js
 validateURLInput("example.com").then(async resp => {
-  const data = await generateSitemap("https://example.com")
-  console.log(resp)
+  const sitemap = await generateSitemap(resp.URL)
+  console.log(sitemap)
 })
 /*
 {
